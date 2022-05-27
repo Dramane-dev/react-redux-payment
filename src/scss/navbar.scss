@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #FAEDDC;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 2%;
+    text-decoration: inherit;
+    list-style-type: none;
+
+    .link {
+        font-size: large;
+        color: black;
+        text-decoration: inherit;
+    }
+
+    .link:hover {
+        color: #ffffff;
+    }
+}

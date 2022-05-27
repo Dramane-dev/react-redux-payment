@@ -1,0 +1,35 @@
+.article-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid black;
+    align-items: center;
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .article-title, .article-quantity {
+        font-weight: bold;
+        background-color: #A7D6AF;
+    }
+
+    .add-button {
+        padding: 2%;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #A7D6AF;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .remove-button {
+        padding: 2%;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #F5A2A2;
+        color: #ffffff;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,22 @@
+.global-container {
+    display: flex;
+    flex-direction: row;
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+        border: 3px solid black;
+
+        .product-informations {
+            text-align: justify;
+        }
+
+        img {
+            height: 150px;
+            width: 50%;
+            align-self: center;
+        }
+    }
+}
