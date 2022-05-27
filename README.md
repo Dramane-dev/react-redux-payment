@@ -1,4 +1,4 @@
-# Hello World
+# React Redux Payment
 
 ## Installation
 
